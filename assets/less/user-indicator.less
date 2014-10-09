@@ -1,0 +1,37 @@
+.user-indicator {
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  padding: 3px;
+  background: #DDD;
+  border-radius: 50%;
+  font-size: 0;
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.075);
+  }
+  &-online {
+    background: #2ecc71;
+  }
+  &-offline {
+    background: #e74c3c;
+  }
+}
+
+#top-menu .user {
+  margin-right: 0;
+}
+
+table.list td.assigned_to {
+  white-space: nowrap;
+}
