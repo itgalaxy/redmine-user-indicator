@@ -11,11 +11,13 @@ This plugin adds the ability to track which users are online or offline
 1. Stop redmine
 
 2. Clone repository to your redmine/plugins directory
+
 ```
 git clone git://github.com/itgalaxy-company/redmine-user-indicator.git
 ```
 
 3. Run migration
+
 ```
 rake redmine:plugins:migrate
 ```
@@ -29,6 +31,7 @@ rake redmine:plugins:migrate
 1. Stop redmine.
 
 2. Rollback migration
+
 ```
 rake redmine:plugins:migrate VERSION=0 NAME=redmine_sms_auth
 ```
