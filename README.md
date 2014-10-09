@@ -1,26 +1,18 @@
 #Redmine User Indicator
 
-Redmine plugin for indicate online/offline users
+Redmine plugin for indicate online/offline users.
 
 ## Description
 
-This plugin adds the ability to track which users are online or offline
+This plugin adds the ability to track which users are online or offline.
 
 ## Installation
 
 1. Stop redmine
 
-2. Clone repository to your redmine/plugins directory
+2. Clone repository to your redmine/plugins directory  — `git clone git://github.com/itgalaxy-company/redmine-user-indicator.git`
 
-```
-git clone git://github.com/itgalaxy-company/redmine-user-indicator.git
-```
-
-3. Run migration
-
-```
-rake redmine:plugins:migrate
-```
+3. Run migration — `rake redmine:plugins:migrate`
 
 4. Run redmine
 
@@ -30,11 +22,7 @@ rake redmine:plugins:migrate
 
 1. Stop redmine.
 
-2. Rollback migration
-
-```
-rake redmine:plugins:migrate VERSION=0 NAME=redmine_sms_auth
-```
+2. Rollback migration — `rake redmine:plugins:migrate VERSION=0 NAME=redmine_sms_auth`
 
 3. Remove plugin directory from your redmine/plugins directory
 
