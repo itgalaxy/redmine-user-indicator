@@ -37,7 +37,7 @@ rake redmine:plugins:migrate VERSION=0 NAME=redmine_sms_auth
 
 ## License
 
-Copyright (c) 2009-2014 Jakob Skjerning
+Copyright (c) 2009-2014 itgalaxy, inc.
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
